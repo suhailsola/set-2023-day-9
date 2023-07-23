@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script2.js" defer></script>
+  </head>
+  <body>
+    <h1>Pokemon</h1>
+    <div class="info-container">
+      <div class="choose">
+        <button onclick="spawnMewtwo()">Mewtwo</button>
+        <button onclick="spawnBlastoise()">Blastoise</button>
+      </div>
+      <div class="controller">
+        <button onclick="moveUp()">Up</button>
+        <div>
+          <button onclick="moveLeft()">Left</button>
+          <button onclick="moveDown()">Down</button>
+          <button onclick="moveRight()">Right</button>
+        </div>
+      </div>
+      <div class="card-container">
+        <!-- <div class="card">Test <button>Attack</button></div> -->
+      </div>
+    </div>
+
+    <!-- <img
+      id="mewtwo"
+      src="./Pokemon/Assets/f39ee2b033f51b52c8761fc4469f7c65_w200.gif"
+      alt=""
+    /> -->
+    <div id="battlefield" class="board"></div>
+  </body>
+</html>
